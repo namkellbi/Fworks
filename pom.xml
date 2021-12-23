@@ -11,6 +11,12 @@
     <groupId>edu.fpt</groupId>
     <artifactId>Fworks</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>admin</module>
+        <module>company</module>
+        <module>customer</module>
+        <module>payment</module>
+    </modules>
     <name>Fworks</name>
     <description>Fworks</description>
     <properties>
@@ -55,6 +61,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
             </plugin>
         </plugins>
     </build>

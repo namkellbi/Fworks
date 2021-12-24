@@ -1,4 +1,4 @@
-package edu.fpt.serviceadmin;
+package edu.fpt.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
 package edu.fpt.common.entity;
 
-public class Admin {
+public class Notification {
 }

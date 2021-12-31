@@ -1,4 +1,4 @@
 package edu.fpt.common.entity;
 
-public class Role {
+public class Company {
 }

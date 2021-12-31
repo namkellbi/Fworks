@@ -13,6 +13,7 @@
         <module>company</module>
         <module>customer</module>
         <module>payment</module>
+        <module>service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

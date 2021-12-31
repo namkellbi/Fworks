@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>edu.fpt</groupId>
-    <artifactId>service-admin</artifactId>
+    <artifactId>service-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service-admin</name>
-    <description>service-admin</description>
+    <name>service-common</name>
+    <description>service-common</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

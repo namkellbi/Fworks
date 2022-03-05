@@ -10,9 +10,10 @@ public class User {
     private String description;
     private long createAt;
     private long updateAt;
+    private boolean isAdmin;
     private boolean status;
 
-    public User(long id, String fullName, long age, String address, String email, String phone, String description, long createAt, long updateAt, boolean status) {
+    public User(long id, String fullName, long age, String address, String email, String phone, String description, long createAt, long updateAt, boolean isAdmin, boolean status) {
         this.id = id;
         this.fullName = fullName;
         this.age = age;
@@ -22,7 +23,16 @@ public class User {
         this.description = description;
         this.createAt = createAt;
         this.updateAt = updateAt;
+        this.isAdmin = isAdmin;
         this.status = status;
+    }
+
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
     }
 
     public long getId() {
